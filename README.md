@@ -76,7 +76,7 @@ This system uses a stateless API design and is built to run in a highly availabl
     - **Directly with FastAPI**:
 
         ```bash
-        uvicorn main:app --reload
+        fastapi dev
         ```
 
 6. The service will be available at `http://localhost:8000`.
